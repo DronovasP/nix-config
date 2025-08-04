@@ -14,6 +14,7 @@
 
     # You can also split up your configuration and import pieces of it here:
     # ./nvim.nix
+    ./hyprland
   ];
 
   nixpkgs = {
@@ -33,7 +34,6 @@
 
   programs.kitty.enable = true;
   wayland.windowManager.hyprland.enable = true;
-
 
   home.packages = with pkgs; [
   xfce.mousepad
