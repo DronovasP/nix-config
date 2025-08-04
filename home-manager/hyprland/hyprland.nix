@@ -1,7 +1,10 @@
 {pkgs, ...}:
 {
 	home.packages = with pkgs; [
-	
+	brightnessctl
+	dunst
+	waybar
+	pkgs.clipse
 	];
 	wayland.windowManager.hyprland = {
 		enable = true;
