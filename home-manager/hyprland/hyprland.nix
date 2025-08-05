@@ -6,6 +6,8 @@
 	waybar
 	pkgs.clipse
 	playerctl
+	font-awesome
+	material-design-icons
 	];
 	wayland.windowManager.hyprland = {
 		enable = true;
